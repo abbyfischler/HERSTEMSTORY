@@ -7,10 +7,8 @@ body{
 
 .nav-bar{
   text-align:center;
-  background-color:rgba(214, 211, 211, 0.568);
-  /* font-color:BLACK; */
+  background-color:#ecf8f8ff;
   padding:10px;
-  color:black;
 }
 .logo-image{
   width: auto;
@@ -24,7 +22,7 @@ body{
 }
 
 a {
-  color: #E7717D;
+  color: #e0aaffff;
   text-decoration: none;
   
 }

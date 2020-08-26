@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
   font-family: 'Poppins', sans-serif;
-}
-.nav-bar{
-  text-align:center;
-  background-color:rgba(214, 211, 211, 0.568);
-  font-color:white;
-  padding:10px;
-  color:white;
+  margin: 0;
 }
 
+.nav-bar{
+  text-align:center;
+  background-color:#ecf8f8ff;
+  padding:10px;
+}
 a {
-  color: #E7717D;
+  color: #e0aaffff;
   text-decoration: none;
   
 }
