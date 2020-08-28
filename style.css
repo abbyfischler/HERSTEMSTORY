@@ -4,7 +4,6 @@ body{
   margin: 0;
 }
 
-
 .nav-bar{
   text-align:center;
   background-color:#ecf8f8ff;
@@ -26,18 +25,75 @@ a {
   text-decoration: none;
   
 }
+
+.above-the-fold{
+  display: flex;
+   background-color:#f2b5d4ff;
+}
+.abc{
+  width:200%;
+  display: inline;
+
+}
+.des{
+  display: inline-block;
+  font-size:50px;
+  text-align:center;
+  color:white;
+  
+}
+/*
+<div class="above-the-fold">
+         <img class ="abc" src="https://media.giphy.com/media/U7gI2s1ESuU1Yt4tFZ/giphy.gif">
+         <p class="des">HER STEM STORY is a website highlighting women who have made an impact on their area of STEM. Click the category for the type of women you want to see.</p>
+      </div>
+
+*/
+/*
+ <div class="below-the-fold">
+      <h2 class="sentence">
+         All these women are
+      </h2>
+      <div class="tiktok">
+      <div class="slidingVertical">
+         <span>Amazing.</span>
+         <span>Beautiful.</span>
+         <span>Inspiring.</span>
+         <span>Empowering.</span>
+         <span>Techsetters.</span>
+      </div>
+      </div>
+*/
+.below-the-fold{
+  text-align:center;
+}
+.tiktok{
+  background-color: #ecf8f8ff;
+  text-align:center;
+}
+.sentence{
+  font-size:60px;
+  font-weight:bold;
+}
 .slidingVertical{
-	display: inline;
+	display: inline-block;
+  width: 200px;
+  flex-direction: column;
 	text-indent: 8px;
+  position: relative;
+  padding-top:60px;
+  font-size:90px;
 }
 .slidingVertical span{
 	animation: topToBottom 12.5s linear infinite 0s;
 	-ms-animation: topToBottom 12.5s linear infinite 0s;
 	-webkit-animation: topToBottom 12.5s linear infinite 0s;
-	color: #00abe9;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
+  position: absolute;
+  text-align:center;
+ top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
 }
 .slidingVertical span:nth-child(2){
 	animation-delay: 2.5s;
@@ -88,14 +144,8 @@ a {
 	100% { opacity: 0; }
 }
 
-
-
-
-
-
-
 footer{
-  background-color:#FFCCE1;
+  background-color:#e0aaffff;
   color:white;
   text-align:center;
   padding: 15px;
