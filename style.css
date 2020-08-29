@@ -42,28 +42,7 @@ a {
   color:white;
   
 }
-/*
-<div class="above-the-fold">
-         <img class ="abc" src="https://media.giphy.com/media/U7gI2s1ESuU1Yt4tFZ/giphy.gif">
-         <p class="des">HER STEM STORY is a website highlighting women who have made an impact on their area of STEM. Click the category for the type of women you want to see.</p>
-      </div>
 
-*/
-/*
- <div class="below-the-fold">
-      <h2 class="sentence">
-         All these women are
-      </h2>
-      <div class="tiktok">
-      <div class="slidingVertical">
-         <span>Amazing.</span>
-         <span>Beautiful.</span>
-         <span>Inspiring.</span>
-         <span>Empowering.</span>
-         <span>Techsetters.</span>
-      </div>
-      </div>
-*/
 .below-the-fold{
   text-align:center;
 }
