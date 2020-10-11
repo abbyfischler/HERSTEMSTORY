@@ -61,12 +61,15 @@ a {
   border:solid;
   border-color:#ffcce1;
   background:#afd275;
+    padding-top:40px;
   padding:70px;
   text-align:center;
   align-self: center;
-  width:150px;
-  height:850px;
+  width:280px;
+  height:470px;
+  
   margin:40px;
+  border-radius: 25px;
 }
 .facepics{
   border-radius:50%;

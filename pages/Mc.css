@@ -28,6 +28,8 @@ a {
 } */
 .M{
   font-size:200px;
+  float:left;
+  padding-right: 75px;
 }
 .A {
   font-size: 200px;
@@ -45,8 +47,8 @@ a {
 }
 .mletter,.aletter,.tletter,.hletter{
    flex-wrap:row-wrap;
-   display:flex;
-  
+   displa
+  y:flex;
 }
 .bax{
   border:solid;

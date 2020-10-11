@@ -48,6 +48,7 @@ body{
 .S,.C,.I,.E,.N{
   font-size:200px;
   color: black;
+  border-radius: 25px;
 }
 
 .S{
@@ -73,6 +74,7 @@ body{
 .sletter,.cletter,.iletter,.eletter,.nletter{
   flex-wrap:row-wrap;
   display:flex;
+  
 }
 
 .bax{
@@ -83,8 +85,9 @@ body{
   text-align:center;
   align-self: center;
   width: 400px;
-  height: 870px;
+  height: 470px;
   margin: 50px;
+  border-radius: 25px;
 }
 
 .facepics{
